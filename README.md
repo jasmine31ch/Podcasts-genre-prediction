@@ -5,6 +5,8 @@ The application predicts a podcast episode’s genre using short audio snippets.
 The intended users of this system include podcast listeners as well as podcast platforms that curate and recommend content. Individual listeners who are browsing for new shows can benefit from a genre prediction model because it helps them explore unfamiliar podcasts that match their interests even when they have limited prior knowledge about those creators or channels. Podcast platforms and developers can also use this model as part of a recommendation pipeline, as many podcast episodes lack consistent or accurate metadata. This application could assist with searching recommendations, maintain more accurate metadata for the platforms, and help new creators become discoverable.
 ## Dataset
 https://github.com/jasmine31ch/Podcasts-genre-prediction
+## Platform
+Google Colab - A100
 ## ML Aprroach
 ### 1. Data Collection:
 We constructed our dataset using Spotify’s genre-specific Top 30 rankings. For each of the six target genres, we selected five channels by prioritizing shows labeled exclusively with that genre, and when necessary, those listing the genre as their primary category. From these, three channels per genre were assigned to the training set, while one channel each was reserved for validation and testing. 
